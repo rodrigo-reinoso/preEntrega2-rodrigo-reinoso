@@ -366,7 +366,6 @@ body {
     margin-bottom: 20px;
   }
 }
-/* footer */
 .footer {
   display: flex;
   flex-direction: row;
@@ -376,23 +375,20 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
-footer h1 {
-  background-color: black;
-  color: whitesmoke;
-}
-
-.enlaces {
+.footer .enlaces {
   display: flex;
   align-items: center;
   position: relative;
   top: 2px;
 }
-
-.enlaces a {
+.footer .enlaces a {
   margin: 0 10px;
   color: white;
   text-decoration: none;
+}
+.footer h1 {
+  background-color: black;
+  color: whitesmoke;
 }
 
 /* secciones */

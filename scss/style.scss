@@ -5,40 +5,7 @@
 @import "./sections/header";
 @import "./sections/body";
 @import "./sections/index";
-
-
-
-
-
-/* footer */
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    width: 100%;
-    margin-top: 20px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer h1 {
-    background-color: black;
-    color: whitesmoke;
-}
-
-.enlaces {
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 2px;
-}
-
-.enlaces a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-}
+@import "./sections/footer";
 
 /* secciones */
 

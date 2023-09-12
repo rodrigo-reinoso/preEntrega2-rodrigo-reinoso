@@ -1,0 +1,25 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    .enlaces {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 2px;
+        a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    h1 {
+        background-color: black;
+        color: whitesmoke;
+    }
+}
