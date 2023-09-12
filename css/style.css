@@ -174,7 +174,6 @@ h1 {
     display: none !important;
   }
 }
-/* contenido principal */
 body {
   display: flex;
   flex-direction: column;
@@ -186,14 +185,12 @@ body {
 .main {
   background-color: whitesmoke;
 }
-
 .main h1 {
   color: whitesmoke;
   border-radius: 7px;
   text-align: center;
 }
-
-.gradiente-linear {
+.main .gradiente-linear {
   width: 100%;
   height: 60px;
   padding-top: 10px;
@@ -202,21 +199,16 @@ body {
   font-weight: bolder;
   color: rgb(99, 88, 88);
 }
-
-.gradiente-linear:hover {
+.main .gradiente-linear:hover {
   color: white;
-  transform: scale(1 0.9);
+  transform: scale(1);
   transition: all 0.5s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-.enlace-asociar {
+.main .enlace-asociar {
   text-decoration: none;
 }
-
-/* carousel */
-/* Estilos del carousel */
-.carousel-imagenes {
+.main .carousel-imagenes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,81 +216,62 @@ body {
   background-color: #6a6464;
   border-radius: 7px;
 }
-
-.carousel-item img {
+.main .carousel-imagenes .carousel-item img {
   display: flex;
   width: 100%;
   height: auto;
   border-radius: 7px;
   justify-content: space-evenly;
 }
-
-.carousel-item p {
+.main .carousel-imagenes .carousel-item p {
   color: whitesmoke;
   font-size: 18px;
 }
-
-/* contenedor de imagen-parrafo*/
-.img-p {
+.main .img-p {
   display: flex;
   align-items: center;
   padding: 20px;
 }
-
-.img-p p {
+.main .img-p p {
   padding-top: 30px;
   font-size: 19px;
   padding-right: 10px;
   text-align: justify;
 }
-
-.imagen-parrafo {
+.main .img-p .imagen-parrafo {
   display: flex;
   max-width: auto;
   width: 100%;
   gap: 20px;
 }
-
-.imagen-parrafo img {
+.main .img-p .imagen-parrafo img {
   max-width: 100%;
   height: auto;
   border-radius: 7px;
   gap: 20px;
 }
-
-.imagen {
+.main .img-p .imagen-parrafo .imagen {
   flex: 0 0 auto;
 }
-
-.contenido {
+.main .img-p .imagen-parrafo .contenido {
   flex: 1 1 auto;
 }
-
-.imagen-parrafo p {
+.main .img-p .imagen-parrafo p {
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 10px;
   font-size: 23px;
 }
-
-.contenido h3 {
+.main .img-p .imagen-parrafo h3 {
   margin-top: 10px;
   text-align: center;
   color: rgb(204, 27, 27);
   text-decoration: underline;
 }
-
-@media (max-width: 1371px) {
-  .imagen-parrafo {
-    flex-direction: column;
-    align-items: center;
-  }
-  .imagen {
-    flex: 0 0 auto;
-    margin-bottom: 20px;
-  }
+.main .div {
+  /* destacados -- agenda deportiva */
 }
-.div h2 {
+.main .div h2 {
   font-size: 25px;
   text-align: center;
   background-color: gray;
@@ -308,27 +281,21 @@ body {
   margin-top: 50px;
   padding-top: 15px;
 }
-
-.div ul li {
+.main .div ul li {
   background-color: rgb(227, 210, 210);
 }
-
-.div a {
+.main .div a {
   text-decoration: none;
   display: inline-block;
   margin: 5px;
 }
-
-.div a img {
+.main .div a img {
   width: 300px;
 }
-
-.div a p {
+.main .div a p {
   width: 300px;
 }
-
-/* destacados -- agenda deportiva */
-.container-destacados-agenda {
+.main .div .container-destacados-agenda {
   display: flex;
   width: 100%;
   height: auto;
@@ -337,8 +304,7 @@ body {
   flex-wrap: wrap;
   padding-top: 10px;
 }
-
-.container-destacados-agenda img {
+.main .div .container-destacados-agenda img {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -351,45 +317,55 @@ body {
   border-radius: 10px;
   box-shadow: 3px 3px 6px #393838;
 }
-
-.container-destacados-agenda a {
+.main .div .container-destacados-agenda a {
   width: 250px;
 }
-
-.container-destacados-agenda h2 {
+.main .div .container-destacados-agenda h2 {
   color: whitesmoke;
   width: auto;
   height: 80px;
   border-radius: 6px;
 }
-
-.container-destacados-agenda p {
+.main .div .container-destacados-agenda p {
   width: auto;
   height: auto;
   text-align: center;
   margin: -11px 0;
 }
-
-.imagen a img {
+.main .div .imagen a img {
   display: block;
   width: 360px;
   justify-content: center;
   margin: 4px;
   border-radius: 7px;
+  transition: all 0.42s ease;
+  object-fit: cover;
 }
-
-.imagen a img p {
+.main .div .imagen a img:hover {
+  transform: scale(1.1) !important;
+  transition: all 0.5s ease !important;
+}
+.main .div .imagen a img p {
   margin: 5px;
   text-align: center;
 }
-
-.descripcion {
+.main .div .descripcion {
   margin-top: 15px;
   font-size: 20px;
   color: #555;
   text-align: center;
 }
 
+@media (max-width: 1371px) {
+  .imagen-parrafo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen {
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+  }
+}
 /* footer */
 .footer {
   display: flex;
