@@ -1,20 +1,3 @@
-@import "./assets/reset";
-@import "./assets/globales";
-
-
-@import "./sections/header";
-@import "./sections/body";
-@import "./sections/index";
-@import "./sections/elClub";
-@import "./sections/socios";
-@import "./sections/tienda";
-@import "./sections/contacto";
-@import "./sections/footer";
-
-/* secciones */
-
-
-
 /* seccion tienda */
 /* Estilos generales para el menú */
 .menu-tienda {
@@ -70,7 +53,7 @@
     text-align: center;
     list-style-type: none;
     background-color: #333333ad;
-    border-radius: 7px;
+    border-radius: px;
     height: 50px;
     border: 3px solid white;
 }
@@ -206,124 +189,4 @@
     background-color: rgb(255, 0, 0);
     transition: all 0.42s ease;
     border-color: rgb(245, 245, 245);
-}
-
-
-  
-
-
-
-
-
-/* seccion contacto */
-.fondo-contenedor {
-    background-image: url(../recursos/contacto/estadio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-radius: 7px !important;
-    padding-bottom: 25px;
-}
-
-.container-contacto {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: e9ecef;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.container-contacto form {
-    display: grid;
-    grid-gap: 10px;
-}
-
-.container-contacto label {
-    background-color: ced4da;
-}
-
-.container-contacto label,
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 18px;
-
-}
-
-.container-contacto button {
-    background-color: rgb(74, 72, 72);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.container-contacto button:hover {
-    background-color: red;
-}
-
-/* Media Query para hacer el formulario responsivo */
-@media (max-width: 768px) {
-    .container-contacto form {
-        grid-template-columns: 1fr;
-        /* Cambia a una columna */
-    }
-
-    .fondo-contenedor {
-        background-image: none;
-        background-color: gainsboro;
-    }
-}
-
-
-/* Mostrar el menú normal en pantallas más grandes */
-@media (min-width: 769px) {
-    .hamburguesa {
-        display: none;
-    }
-
-    .nav {
-        display: block;
-    }
-}
-
-/* Mostrar el menú hamburguesa en pantallas móviles */
-@media (max-width: 768px) {
-    .hamburguesa {
-        display: block;
-    }
-
-    .nav {
-        display: none;
-    }
-}
-
-.navbar {
-    height: 0;
-}
-
-.navbar img,
-.navbar li,
-.navbar button {
-    display: none;
-}
-
-@media (max-width: 769px) {
-    .navbar {
-        height: auto;
-    }
-
-    .navbar img,
-    .navbar li,
-    .navbar button {
-        display: block;
-    }
-
 }
