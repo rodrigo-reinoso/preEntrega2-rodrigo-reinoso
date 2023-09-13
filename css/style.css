@@ -403,7 +403,7 @@ body {
   padding-left: 10px;
   border-radius: 7px;
 }
-.container-principal-club .contenido-club h5 {
+.container-principal-club .contenido-club h3 {
   text-decoration: underline rgb(205, 10, 10);
 }
 .container-principal-club .contenido-club .ubicacion {
@@ -483,13 +483,11 @@ body {
   font-size: 18px;
 }
 
-/* Agregamos margen superior a los elementos de formulario */
 .form-group select,
 .form-group input {
   margin-top: 20px;
 }
 
-/* Centramos el botón horizontalmente en el contenedor */
 .boton-ingresar {
   width: 100%;
   background-color: rgba(169, 6, 6, 0.8);
