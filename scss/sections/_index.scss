@@ -56,6 +56,7 @@
         padding: 20px;
 
         p {
+            font-family: $titulares bolder;
             padding-top: 30px;
             font-size: 19px;
             padding-right: 10px;
@@ -82,7 +83,12 @@
             .contenido {
                 flex: 1 1 auto;
             }
-
+            h2{
+                margin-top: 10px;
+                text-align: center;
+                color: rgb(1, 1, 1);
+                text-decoration: underline red;
+            }
             p {
                 padding: 20px;
                 background-color: #f0f0f0;
@@ -90,12 +96,7 @@
                 font-size: 23px;
             }
 
-            h3 {
-                margin-top: 10px;
-                text-align: center;
-                color: rgb(204, 27, 27);
-                text-decoration: underline;
-            }
+           
         }
     }
 
@@ -109,10 +110,6 @@
             height: 60px;
             margin-top: 50px;
             padding-top: 15px;
-        }
-
-        ul li {
-            background-color: rgb(227, 210, 210);
         }
 
         a {

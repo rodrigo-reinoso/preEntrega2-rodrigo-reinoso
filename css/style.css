@@ -250,6 +250,7 @@ body {
   padding: 20px;
 }
 .main .img-p p {
+  font-family: "Assistant", sans-serif bolder;
   padding-top: 30px;
   font-size: 19px;
   padding-right: 10px;
@@ -273,17 +274,17 @@ body {
 .main .img-p .imagen-parrafo .contenido {
   flex: 1 1 auto;
 }
+.main .img-p .imagen-parrafo h2 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(1, 1, 1);
+  text-decoration: underline red;
+}
 .main .img-p .imagen-parrafo p {
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 10px;
   font-size: 23px;
-}
-.main .img-p .imagen-parrafo h3 {
-  margin-top: 10px;
-  text-align: center;
-  color: rgb(204, 27, 27);
-  text-decoration: underline;
 }
 .main .div {
   /* destacados -- agenda deportiva */
@@ -297,9 +298,6 @@ body {
   height: 60px;
   margin-top: 50px;
   padding-top: 15px;
-}
-.main .div ul li {
-  background-color: rgb(227, 210, 210);
 }
 .main .div a {
   text-decoration: none;
@@ -845,7 +843,10 @@ textarea {
   text-decoration: none;
   margin: 13px;
 }
-.footer h1 {
+.footer .slogan-club {
   background-color: black;
   color: whitesmoke;
+  font-size: 28px;
+  font-family: "Assistant", sans-serif bolder;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
