@@ -1,10 +1,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <meta name="keywords" content="instituto, club, deporte, contacto, informacion, consultas, atencón">
+    <meta name="description"
+        content="Ponte en contacto con nosotros, te brindaremos toda la informacion y responderemos tus consultas">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto | Instituto A.C.C</title>
 </head>
 
 <body class="imagen-contacto">
@@ -23,7 +26,7 @@
                         <button type="submit"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
                         <a href="./socios.html"><i class="fa-solid fa-user fa-2xl"></i></a>
                     </form>
-                    
+
                 </div>
             </div>
 
@@ -62,32 +65,34 @@
     </header>
 
     <!-- contenido principal -->
-    <main class="fondo-contenedor">
+    <main>
+        <div class="fondo-contenedor">
+            <h1>Contacto</h1>
 
-        <h1>Contacto</h1>
-        <div class="container-contacto">
-            <form action="#">
-                <label for="nombre">Nombre Completo:</label>
-                <input type="text" id="nombre" name="nombre" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <!-- formulario contacto -->
 
-                <label for="telefono">Telefono:</label>
-                <input type="telefono" id="telefono" name="telefono" required>
-    
-                <label for="asunto">Asunto:</label>
-                <input type="asunto" id="asunto" name="asunto" required>
+            <div class="container-contacto">
+                <form action="#">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-    
-                <button type="submit">Enviar</button>
-            </form>
+                    <label for="telefono">Telefono:</label>
+                    <input type="number" id="telefono" name="telefono" required>
+
+                    <label for="asunto">Asunto:</label>
+                    <input type="asunto" id="asunto" name="asunto" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
 
-           
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </main>
     <!-- pie de pagina -->
     <footer class="footer">
@@ -100,7 +105,7 @@
             </div>
         </div>
         <div>
-            <h1 class="titulo">JUNTOS SOMOS MAS FUERTES</h1>
+            <h3 class="slogan-club">JUNTOS SOMOS MAS FUERTES</h3>
         </div>
         <div>
             <div class="enlaces">
