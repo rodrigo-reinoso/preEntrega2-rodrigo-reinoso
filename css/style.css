@@ -233,14 +233,18 @@ body {
   background-color: #6a6464;
   border-radius: 7px;
 }
-.main .carousel-imagenes .carousel-item img {
+.main .carousel-imagenes .carousel-inner {
+  max-width: 50rem;
+  transition: all 0.5s ease;
+}
+.main .carousel-imagenes .carousel-inner .carousel-item img {
   display: flex;
   width: 100%;
   height: auto;
   border-radius: 7px;
   justify-content: space-evenly;
 }
-.main .carousel-imagenes .carousel-item p {
+.main .carousel-imagenes .carousel-inner .carousel-item p {
   color: whitesmoke;
   font-size: 18px;
 }
