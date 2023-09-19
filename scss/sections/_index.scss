@@ -218,3 +218,12 @@
         margin-bottom: 20px;
     }
 }
+
+// con esto en pantallas pequeñas ocultaremos la informacion del parrafo de la class contenido
+
+@media (max-width: 767px) {
+    .contenido p {
+      display: none;
+    }
+  }
+  

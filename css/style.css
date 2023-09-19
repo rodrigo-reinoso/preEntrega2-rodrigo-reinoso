@@ -385,6 +385,11 @@ body {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 767px) {
+  .contenido p {
+    display: none;
+  }
+}
 .container-principal-club {
   display: flex;
   flex-direction: column;
